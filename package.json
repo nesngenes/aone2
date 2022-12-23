@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ./client && react-scripts --openssl-legacy-provider build"
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "keywords": [],
   "author": "",
