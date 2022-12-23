@@ -9,7 +9,8 @@
     "npm": "8.8.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "client": "cd ./client && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
