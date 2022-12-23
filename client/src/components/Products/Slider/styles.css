@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.slides-images {
+    width: 400px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-slider {
+    position: relative;
+    width: 400px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0    ;
+}
+

@@ -1,0 +1,43 @@
+.auth-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AuthForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.AuthForm > * {
+    width: 500px;
+}
+
+
+.AuthForm button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: plum;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.switchMode {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .auth-div {
+        margin-top: 90px;
+    }
+
+    .AuthForm {
+    }
+
+    .AuthForm > * {
+        width: 200px;
+    }
+}

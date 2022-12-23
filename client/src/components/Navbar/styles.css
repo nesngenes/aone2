@@ -1,0 +1,133 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 182, 221);
+    padding: 10px 20px;
+    border-radius: 10px 20px;
+}
+
+.cart-sum {
+    margin-left: 20px;
+    border-radius: 20px;    
+    background-color: rgb(166, 216, 253);
+    padding: 4px 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar .links {
+    text-decoration: none;
+    margin: 0 100px;
+    color: black;
+}
+
+.humbergerMenu-wrapper {
+    display: none;
+}
+
+.navbar-loggedIn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-loggedIn h4 {
+    margin-right: 20px;
+}
+
+.logout {
+    background-color: rgb(250, 64, 132);
+    color: white;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .humbergerMenu-wrapper {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .links {
+        margin-bottom: 20px;
+    }
+
+    .navbar-main {
+        display: none;
+    }
+
+    .navbar-content .links {
+    }
+
+    .navbar-main-mobile {
+        background-color: rgba(221, 160, 221, 0.926);
+        width: 89%;
+        padding: 20px;
+        position: absolute;
+        top: 72px;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-loggedIn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-auth {
+        display: flex;
+        justify-content: center;
+    }
+    .brand img{
+        height: 40px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar .links {
+        margin: 0;
+    }
+}

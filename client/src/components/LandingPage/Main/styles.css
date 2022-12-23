@@ -1,0 +1,51 @@
+.main {
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.main::before {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    position: absolute;
+    width: auto;
+    background-image: url('../../../assets/main.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.content h1 {
+    color: peru;
+    font-size: 32px;
+    background-color: white;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+.content button {
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.see-all-product {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
