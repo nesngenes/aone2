@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ./client && npm install && npm config set legacy-peer-deps true && npm run build"
+    "build": "cd ./client && npm config set legacy-peer-deps true && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
