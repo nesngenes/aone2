@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ./client && npm i"
+    "build": "cd ./client && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
